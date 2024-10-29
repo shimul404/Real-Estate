@@ -103,3 +103,76 @@
     font-weight: 400;
 }
 /* <!-- ---End Header Section--- --> */
+
+/* <!-- ---Main Header Section--- --> */
+.main-header{
+    padding: 40px 0;
+}
+.main-header .row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.main-header .site-logo img{
+    width: 188px;
+}
+.main-header .row nav .menu{
+    display: flex;
+    align-items: center;
+}
+.main-header nav ul li a{
+    color: #303441;
+    font-size: 13px;
+    line-height: 28px;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-family: "Raleway", sans-serif;
+    padding: 15px 20px;
+}
+.down-icon{
+    position: relative;
+}
+.down-icon::after{
+    content: '\f107';
+    position: absolute;
+    font-family: fontawesome;
+    margin-left: 5px;
+}
+.dropdown:hover .down-icon::after{
+    content: '\f106';
+}
+.dropdown{
+    position: relative;
+}
+.dropdown-menu{
+    position: absolute;
+    width: 230px;
+    border-top: 3px solid #03C575;
+    padding: 0 15px;
+    display: none;
+}
+.dropdown-menu li a{
+   padding: 0 !important;
+   margin: 0 !important;
+}
+.main-header .button a{
+    font-size: 10px;
+    line-height: 32px;
+    font-weight: 400;
+    color: #fff;
+    width: 110px;
+    height: 32px;
+    background: #234dd4;
+    display: block;
+    text-align: center;
+    border-radius: 20px;
+    text-transform: uppercase;
+    transition: .3s ease;
+}
+.main-header .button .fa-house-chimney-medical{
+    padding: 0 3px;
+}
+.main-header .button a:hover{
+    background: #03C575;
+}
+/* <!-- ---End Main Header Section--- --> */
