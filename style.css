@@ -15,6 +15,10 @@
     margin: 0 auto;
 }
 /* <!-- ----Header Section--- --> */
+.top-header{
+    position: relative;
+    z-index: 1;
+}
 .top-header .container{
     border-bottom: 1px solid #cbcccf;
     padding: 15px 0;
@@ -107,6 +111,8 @@
 /* <!-- ---Main Header Section--- --> */
 .main-header{
     padding: 40px 0;
+    position: relative;
+    z-index: 1;
 }
 .main-header .row{
     display: flex;
@@ -176,3 +182,51 @@
     background: #03C575;
 }
 /* <!-- ---End Main Header Section--- --> */
+
+/* <!-- ---Banner Section--- --> */
+.banner-section {
+    background: url(./imgs/home-realtor-main-bg.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    padding-top: 245px;
+    padding-bottom: 195px;
+    margin-top: -183px;
+    position: relative;
+}
+.banner-section h4{
+    font-size: 16px;
+    line-height: 16px;
+    font-weight: 600;
+    color: #234dd4;
+    letter-spacing: 4px;
+    margin-bottom: 20px;
+}
+.banner-section h2{
+    font-size: 60px;
+    line-height: 66px;
+    font-weight: 700;
+    color: #303441;
+    max-width: 450px;
+    font-family: "Raleway", sans-serif;
+    margin-bottom: 20px;
+}
+.banner-section a{
+    display: block;
+    font-size: 13px;
+    line-height: 47px;
+    font-weight: 600;
+    color: #fff;
+    max-width: 450px;
+    background: #234dd4;
+    width: 260px;
+    height: 47px;
+    text-align: center;
+    cursor: pointer;
+    transition: .3s;
+    border-radius: 5px;
+}
+.banner-section a:hover{
+    background: #03C575;
+}
+/* <!-- ---End Banner Section--- --> */
