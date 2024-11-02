@@ -441,20 +441,20 @@
 .about-section .row{
     display: flex;
 }
-.about-section .col{
-    width: 50%;
-    margin: 10px;
-    padding: 10px;
-}
 .about-section .title{
     margin-bottom: 30px;
-    margin-top: 30px;
+    margin-top: 20px;
 }
 .about-section .col1{
     background: url(./imgs/home-realtor-single-519x639.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
+    width: 45%;
+}
+.about-section .col2{
+    width: 55%;
+    padding:  0 42px;
 }
 .about-section span{
     font-size: 18px;
@@ -469,7 +469,7 @@
     line-height: 28px;
     color: #222;
     margin-bottom: 30px;
-    font-weight: 300px;
+    font-weight: 300;
 }
 .about-section ul{
     display: flex;
@@ -515,6 +515,23 @@
 .about-section .media-icon a:hover{
     color: #234dd4;
 }
-
-
+.about-section .media img{
+    width: 70px;
+}
 /* <!-- ---End About Section--- --> */
+
+/* <!-- ---Our partner Section--- --> */
+.our-partner{
+    padding-top: 40px;
+    padding-bottom: 90px;
+}
+.our-partner .title{
+    text-align: center;
+    margin-bottom: 60px;
+}
+.our-partner ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+/* <!-- ---End Our partner Section--- --> */
