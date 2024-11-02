@@ -254,6 +254,13 @@
 /* <!-- ---End Banner Section--- --> */
 
 /* !-- ---Feature Section--- --> */
+.feature-section {
+    background: #EBEEF3;
+    padding-top: 80px;
+    padding-bottom: 50px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
 .feature-section h4 span .fa-house{
     font-size: 22px;
     line-height: 22px;
@@ -276,5 +283,153 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding-bottom: 60px;
+}
+.owl-carousel .item .imgs img{
+    width: 100%;
+}
+.owl-carousel .item .imgs{
+    position: relative;
+}
+.owl-carousel .item .imgs::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    background: rgba(34, 34, 34, .8);
+    top: 0;
+    bottom: 0;
+    overflow: hidden;
+    display: none;
+}
+.owl-carousel .item .imgs .button{
+    position: absolute;
+    display: flex;
+    column-gap: 10px;
+    top: 15px;
+    left: 15px;
+    z-index: 1;
+}
+.owl-carousel .item .imgs .view{
+    position: absolute;
+    top: 0;
+    z-index: 1;
+    right: 15px;
+    top: 15px;
+}
+.owl-carousel .item .imgs .view a{
+    font-size: 13px;
+    color: #fff;
+    padding: 5px 9px;
+    background: rgba(34, 34, 34, 7);
+    border-radius: 6px;
+    display: block;
+}
+.owl-carousel .item .imgs .view a .fa-camera{
+    margin-right: 5px;
+}
+.owl-carousel .item .imgs .button a {
+    font-size: 10px;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding: 5px 9px;
+    background: #03C575;
+    color: #fff;
+    display: block;
+    border-radius: 6px;
+}
+.owl-carousel .item .imgs .button .bg{
+    background: red;
+}
+.owl-carousel .item .imgs .wishlist{
+    position: absolute;
+    z-index: 1;
+    display: flex;
+    right: 15px;
+    bottom: 15px;
+    align-items: center;
+}
+.owl-carousel .item .imgs .wishlist a{
+    font-size: 20px;
+    color: #fff;
+    padding-left: 10px;
+}
+
+.active-element{
+    display: none !important;
+}
+.owl-carousel .item:hover .active-element{
+    display: block !important;
+}
+.owl-carousel .item:hover .imgs::after{
+    display: block;
+}
+.owl-carousel .item-title a{
+    font-size: 18px;
+    font-weight: 600;
+    color: #222;
+    font-family: "Raleway", sans-serif;
+    transition: .3s;
+    line-height: 24px;
+    display: block;
+    margin-bottom: 15px;
+}
+.owl-carousel .item-title a:hover{
+    color: #234dd4;
+}
+.owl-carousel .item-title ul li img{
+    width: 18px;
+}
+.owl-carousel .item-title ul li {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 28px;
+    color: #888;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+.owl-carousel .item-title ul{
+    max-width: 245px;
+}
+.owl-carousel .item-title ul li .left, .right{
+    display: flex;
+    align-items: center;
+    column-gap: 5px;
+}
+.owl-carousel .item{
+    border: 1px solid rgba(136, 136, 136, .3);
+    background: #fff;
+    transition: .3s;
+}
+.owl-carousel .price span{
+    font-size: 16px;
+    line-height: 28px;
+    color: #222;
+}
+.owl-carousel .price span del{
+    text-decoration: line-through;
+    color: #888;
+    margin-right: 10px;
+}
+.owl-carousel .price {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-top: 1px solid rgba(136, 136, 136, .3);
+    padding-top: 15px;
+    margin-top: 15px;
+}
+.owl-carousel .item-title{
+    padding: 25px;
+}
+.owl-carousel .price .fa-eye{
+    font-size: 18px;
+    color: #888;
+}
+.owl-carousel .item:hover{
+    box-shadow: 5px 5px 15px rgba(136, 136, 136, .4);
+}
+.owl-carousel .owl-stage-outer{
+    padding-bottom: 40px;
 }
 /* <!-- ---End Feature Section--- --> */
