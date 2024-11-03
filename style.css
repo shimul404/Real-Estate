@@ -865,3 +865,67 @@
     margin-top: 15px;
 }
 /* <!-- ---Testimonials Section--- --> */
+
+/* <!-- ---Feedback Form Section--- --> */
+.feedback-form{
+    background: url(./imgs/feedback.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    padding: 80px 0;
+}
+.feedback-form .title{
+    color: #fff;
+    margin-bottom: 40px;
+}
+.feedback-form .form{
+    display: flex;
+    align-items: center;
+    column-gap: 27px;
+}
+.feedback-form ::placeholder{
+    font-size: 14px;
+    font-weight: 300;
+    color: #000;
+}
+.feedback-form input{
+    width: 100%;
+    height: 50px;
+    padding:  0 20px;
+    border: none;
+    outline: none;
+}
+.feedback-form button{
+    width: 160px;
+    height: 50px;
+    border: none;
+    outline: none;
+    font-size: 13px;
+    font-weight: 600;
+    color: #fff;
+    background: #234dd4;
+    transition: .3s;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+.feedback-form button:hover{
+    background: #03C575;
+}
+.feedback-form .text-area{
+    width: 353px !important;
+}
+.feedback-form .text-area textarea{
+    width: 100%;
+    height: 138px;
+    padding: 20px;
+    border: none;
+    outline: none;
+}
+.feedback-form .name-number, .email{
+    display: flex;
+    flex-direction: column;
+    row-gap: 30px;
+    width: 353px;
+} 
+/* <!-- ---End Feedback Form Section--- --> */
