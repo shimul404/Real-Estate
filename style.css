@@ -929,3 +929,29 @@
     width: 353px;
 } 
 /* <!-- ---End Feedback Form Section--- --> */
+
+/* <!-- ---Footer Section--- --> */
+.footer-section{
+    background: #313131;
+}
+.footer-section .footer-media-icon{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer-section .footer-media-icon a{
+    text-align: center;
+    display: block;
+    width: 100%;
+    background: #313340;
+    color: #fff;
+    border: 10px solid #fff;
+    height: 100px;
+    line-height: 80px;
+    font-size: 25px;
+    transition: .3s;
+}
+.footer-section .footer-media-icon a:hover{
+    background: #000000;
+}
+/* <!-- ---End Footer Section--- --> */
