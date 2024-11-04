@@ -24,11 +24,11 @@
 /* <!-- ----Header Section--- --> */
 .top-header{
     position: relative;
-    z-index: 1;
+    z-index: 2;
 }
-.top-header .container{
+.top-header .container {
     border-bottom: 1px solid #cbcccf;
-    padding: 15px 0;
+    padding: 15px 30px;
 }
 .top-header .container .row{
     display: flex;
@@ -213,7 +213,7 @@
     background-attachment: fixed;
     padding-top: 245px;
     padding-bottom: 195px;
-    margin-top: -183px;
+    margin-top: -190px;
     position: relative;
 }
 .banner-section h4{
@@ -331,7 +331,7 @@
     font-size: 10px;
     font-weight: 700;
     text-transform: uppercase;
-    padding: 5px 9px;
+    padding: 0px 9px;
     background: #03C575;
     color: #fff;
     display: block;
@@ -431,6 +431,9 @@
 }
 .owl-carousel .owl-stage-outer{
     padding-bottom: 40px;
+}
+.owl-carousel .owl-dots{
+    display: none !important;
 }
 /* <!-- ---End Feature Section--- --> */
 
